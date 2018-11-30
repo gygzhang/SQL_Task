@@ -1,6 +1,6 @@
 ﻿--create database 银行贷款
 use [银行贷款]
---(1)	查询所有法人的法人代码、法人名称、经济性质和注册资金。
+----(1)	查询所有法人的法人代码、法人名称、经济性质和注册资金。
 --select Eno, Ename, Enature, Ecapital from LET;
 --(2)	查询“B1100”银行的的银行名称和电话。
 --select Bname,Tel from BankT where Bno = 'B1100'
